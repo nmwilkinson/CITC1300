@@ -3,7 +3,7 @@ body {
 }
 
 #container {
-    background-color: #F2506E;
+    background-color:aliceblue;
     width: 900px;
     margin: 20px auto;
     border-radius: 20px;
@@ -12,8 +12,8 @@ body {
 }
 header {
     padding-top: 20px;
-    background-color: lightgreen;
-    border-radius: 20px 20px 0 0;
+    background-color:#5F5BA3;
+    border-radius: 10px 10px 0 0;
     
 }
 header img {
@@ -29,7 +29,7 @@ header h1{
     text-shadow: 2px 2px 2px black;
 }
 nav{
-    background-color: lightgreen;
+    background-color:aliceblue;
     padding-top: 10px ;
     text-align: center;
 }
@@ -74,7 +74,7 @@ main img{
     border-radius: 20px ;
 }
 footer{
-    background-color:  #F2506E;
+    background-color:  #5F5BA3;
     padding: 40px 0;
     color:ivory;
     text-align: center;
