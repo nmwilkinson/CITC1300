@@ -1,0 +1,120 @@
+body {
+   background-color:#F29422;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   font-size: 18px;
+   color: oldlace;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* Moblie Styles*/
+
+header {
+    padding: 40px ;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-bottom: 25px dotted black;
+}
+header img {
+    
+        display: block;
+        width: 30%;
+        margin: 0 auto;
+}
+
+header h1{
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: black;
+    border-radius: 40px;
+    color:#F29422;
+    text-shadow: 10px 10px 10px 10px white;
+
+}
+header h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1em;
+    color:black;
+}
+#container {
+    background-color: blueviolet;
+    margin: 20px;
+}
+
+main{
+    margin: 10px;
+
+}
+.col {
+    background-color: cornsilk;
+    color: #F29422;
+    padding: 10px;
+    border: 4px dotted black;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+.col h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #A2D92B;
+    text-shadow: 5px 1px 2px black;
+}
+.col img {
+    width: 50%;
+
+}
+.main_img {
+    display: none;
+  
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    color: cornsilk;
+    border-top: 10px dotted #FC09B2;
+}
+
+/* Tablet View */
+
+@media(min-width: 786px){
+    header h1{
+        font-size: 2em;
+    }
+    #container {
+        border-radius: 20px;
+        border: 3px solid #F29422;
+    }
+    .col {
+        width:65%;
+        margin: 20px auto;
+    }
+}
+/* Desktop View */
+
+@media(min-width: 1024px) {
+    #container {
+        width: 65% ;
+        margin: 20px auto;
+
+    }
+    #flex {
+
+        display: flex;
+    }
+    .col{
+        margin: 20px;
+    }
+   
+    main_img {
+        display: block;
+        width: 25%;
+        margin-top: 30px;
+        border-radius: 20px;
+        
+    }
+}
