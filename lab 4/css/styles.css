@@ -20,7 +20,7 @@ header h1{
     color: black;
     text-shadow: 4px 4px 4px #6BDDDD;
     text-align: center;
-    img: 
+     
 }
 
 header{
@@ -41,7 +41,7 @@ nav li a{
     background-color: #F9CFCF;
     color: black;
     text-shadow: 4px 4px 4px #6BDDDD;
-    height: 40x;
+    height: 40px;
     line-height: 40px;
     text-align: center;
     margin: 40px;
@@ -64,7 +64,7 @@ nav, section  , aside , .col , footer {
     display: block;
     background-color: #F9CFCF;
     color: black;
-    height: 40x;
+    height: 40px;
     width: 175px;
     line-height: 40px;
     text-align: center;
