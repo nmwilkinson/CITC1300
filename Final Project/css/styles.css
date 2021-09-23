@@ -1,0 +1,203 @@
+/*global syles*/
+body {
+    background-color: #E0EBFC;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/*Mobile styles*/
+
+#container{
+    background-color: #F9CFCF;
+    margin: 10px;
+    border: 4px solid #B8ABCE;
+}
+header h1{
+    color: black;
+    text-shadow: 4px 4px 4px #6BDDDD;
+    text-align: center;
+     
+}
+
+header{
+    background-image: url('../images/dancer6.png');
+    background-size: 20%;
+    padding: 120px 0;
+}
+nav ul{
+    list-style-type: none ;
+    padding: 0 ;
+    
+}
+
+nav li{
+    display: block;
+}
+nav li a{
+    display: block;
+    background-color: #F9CFCF;
+    color: black;
+    text-shadow: 4px 4px 4px #6BDDDD;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 40px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+    
+}
+
+
+nav, section  , aside , .col , footer {
+    background-color: #6BDDDD;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 4px solid white;
+
+    }   
+.button {
+    display: block;
+    background-color: #F9CFCF;
+    color: black;
+    height: 40px;
+    width: 175px;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px auto;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+nav li a:hover, .button:hover {
+    background-color: white;
+    text-shadow: 1px 1px 1px black;
+}
+h2, h3 {
+    color:black;
+    text-shadow: 1px 1px 1px whitesmoke;
+    text-align: center;
+    font-size: 1.5em;
+}
+h4 { 
+    color:black;
+    text-align: center;
+}
+
+section img, aside img{
+    width: 65%;
+}
+
+footer{
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+.single_col{
+    width: 83% ;
+}
+audio, video{
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+iframe{
+    display: block;
+    margin:20px auto;
+}
+.gallery_img{
+    border: 4px solid white;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+table{
+    display: none;
+}
+/*Tablet styles*/
+@media(min-width: 768px) {
+
+    header{
+        padding: 125px;
+    }
+    header h1{ 
+        font-size: 3em;
+    }
+    nav{
+        text-align: center;
+        padding: 5px;
+    }
+    nav li{
+        display: inline-block;
+    }
+    nav li a{height: 50px;
+        line-height: 50px;
+        width: 200px;
+            
+    }
+    #upper_flex{
+        display: flex;
+    }
+    section, aside {
+        width: 50%;
+    }
+    aside img{
+        width: 50%;
+    }
+    .col img{
+        width: 75%;
+        border-radius: 10px;
+        border:4px dotted #75A3BF
+    }
+    .single_col{
+        width: 95% ;
+    }
+}
+/*Desktop styles*/
+
+@media(min-width: 1024px){
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 4px dotted #F9CFCF;
+        border-radius: 20px ;
+    }
+
+    header{
+        border-radius: 20px 20px 0 0;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+    #lower_flex {
+        display : flex;
+    }
+    .col {
+        width: 100%;
+    }
+    .col img{
+        width: 100%;
+    }
+    .single_col{
+        width:100%;
+    }
+    table, tr, td {
+        border: 4px dotted whitesmoke;
+        padding: 5px;
+        margin: 10px;
+    }
+    table img{
+        width: 100%;
+    }
+    .gallery {
+        display: none;
+    }
+    table{
+        display: block;
+    }
+}
